@@ -7,7 +7,7 @@ users = [
 ]
 for user in users:
     try:
-        if users["role"]=="admin":
+        if user["role"]=="admin":
             print(user)
     except KeyError:
         continue

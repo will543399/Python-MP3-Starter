@@ -11,7 +11,11 @@ anime_list = data["data"]   # a list of 25 anime (each one is a dictionary)
 # Print the title and score of every anime with a score
 # greater than 9.0. Then print how many there were.
 # ------------------------------------------------------------
+def titleprinting():
+    for i in range(len(data)):
+        if data[]
 
+    
 
 
 
